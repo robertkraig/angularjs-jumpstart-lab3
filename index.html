@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="Stylesheet" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/themes/ui-lightness/jquery-ui.css" />
+    <script data-require="angular.js@1.2.0-rc2" data-semver="1.2.0-rc2" src="http://code.angularjs.org/1.2.0-rc.2/angular.js"></script>
+    <script data-require="jquery@2.0.3" data-semver="2.0.3" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.10.3/jquery-ui.min.js"></script>
+    <script src="script.js"></script>
+    <script src="directive.js"></script>
+</head>
+
+<body ng-app="Demo" ng-controller="DemoCtrl">
+    <auto-complete source="tags" ng-model="result_tags"></auto-complete>
+    <auto-complete source="states" ng-model="result_stats"></auto-complete>
+</body>
+
+</html>
